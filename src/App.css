@@ -18,3 +18,21 @@ body {
   background: #151820;
   color: #F3F3F4;
 }
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.container > h2 {
+  margin-top: 70px;
+}
+
+.card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding-top: 20px;
+
+}

@@ -1,0 +1,50 @@
+.card {
+    position: relative;
+    border-radius: 4px;
+}
+
+.card > img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card .card__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 5px;
+}
+
+.card .card__content .card__content-info h2 {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.card .card__content .card__content-info h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card .card__content .card__content-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.card .card__content .card__content-price span {
+    padding: 0 8px;
+    background-color: #F80759;
+    border-radius: 4px;
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
